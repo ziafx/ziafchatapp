@@ -15,7 +15,7 @@ export const addUser = async (request, response) => {
         response.status(200).json(newUser);
     } catch (error) {
         response.status(500).json(error);
-    }
+    } 
 }
 
 export const getUser = async (request, response) => {

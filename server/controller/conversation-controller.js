@@ -13,7 +13,7 @@ export const newConversation = async (request, response) => {
     }
     const newConversation = new Conversation({
         members: [senderId, receiverId]
-    });
+    }); 
 
     try {
         const savedConversation = await newConversation.save();

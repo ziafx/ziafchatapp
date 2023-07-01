@@ -11,7 +11,7 @@ export const newMessage = async (request, response) => {
     } catch (error) {
         response.status(500).json(error);
     }
-
+ 
 }
 
 export const getMessage = async (request, response) => {
